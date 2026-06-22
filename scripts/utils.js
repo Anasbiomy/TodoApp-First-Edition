@@ -27,7 +27,7 @@ export const renderTask = (tasks) => {
     item.isCompleted ? " TaskList__taskContent--isActive" : ""
   }">
   <div class="TaskList__checkbox" tabindex="0" role="button">
-    <img src="./assets/icon-checkmark.svg" alt="icon-checkmark" class="TaskList__checkboxImg">
+    <img src="../assets/icon-checkmark.svg" alt="icon-checkmark" class="TaskList__checkboxImg">
 
   </div>
   <div class="TaskList__valueContent">
